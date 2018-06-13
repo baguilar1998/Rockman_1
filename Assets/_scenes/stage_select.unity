@@ -2053,7 +2053,7 @@ SpriteRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2093918004}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2104,6 +2104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectSound: {fileID: 8300000, guid: b9d5bd228c2396646ad14cfd984577e6, type: 3}
+  stageSelected: {fileID: 8300000, guid: f9d27218b12e5314eae663d07ee66295, type: 3}
 --- !u!82 &2093918008
 AudioSource:
   m_ObjectHideFlags: 0

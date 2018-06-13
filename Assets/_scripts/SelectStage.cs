@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class SelectStage : MonoBehaviour {
 
     SpriteRenderer select;
     public AudioClip selectSound;
+    public AudioClip stageSelected;
     AudioSource audioSource;
 
     private Vector3[] positions = {new Vector3(-1.673f, 2.978f, 0),
@@ -20,9 +21,9 @@ public class SelectStage : MonoBehaviour {
     {
         while (true)
         {
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.3f);
             select.enabled = true; 
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.3f);
             select.enabled = false;
 
         }
@@ -39,6 +40,7 @@ public class SelectStage : MonoBehaviour {
 	void Update () {
         if (Input.GetKeyDown(KeyCode.D))
         {
+            audioSource.clip = selectSound;
             audioSource.Play();
             index++;
             if (index == 6) index = 0;
@@ -46,11 +48,23 @@ public class SelectStage : MonoBehaviour {
         }
         if (Input.GetKeyDown(KeyCode.A))
         {
+            audioSource.clip = selectSound;
             audioSource.Play();
             index--;
             if (index == -1) index = 5;
             select.transform.position = positions[index];
         }
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            //audioSource.clip = stageSelected;
+            //audioSource.Play();
+            transitionToStage();
+        }
 		
 	}
+
+    void transitionToStage()
+    {
+        if (index == 0) SceneManager.LoadScene("cutman_selected");
+    }
 }

@@ -12,10 +12,10 @@ public class Flicker : MonoBehaviour {
     {
         while(true)
         {
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.3f);
             select.color = Color.white;
             start.color = Color.white;
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.3f);
             select.color = mainColor;
             start.color = mainColor;
         }
