@@ -300,6 +300,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_scripts\Flicker.cs" />
+    <Compile Include="Assets\_scripts\SelectStage.cs" />
     <Compile Include="Assets\_scripts\StartGame.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -11,6 +11,7 @@ TextureImporter:
     21300012: iceman
     21300014: fireman
     21300016: bombman
+    21300018: select
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -259,13 +260,33 @@ TextureImporter:
         width: 32
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: c927fc5f2dd048e458aa4864c03ff563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: select
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 158
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc81d9aa5b4d1b942832beb42f6ceaf5
       vertices: []
       indices: 
       edges: []
