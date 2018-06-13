@@ -4,6 +4,13 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: start_megaman
     21300002: megaman_sign
+    21300004: robot_frame
+    21300006: cutman
+    21300008: gutsman
+    21300010: elecman
+    21300012: iceman
+    21300014: fireman
+    21300016: bombman
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -112,13 +119,153 @@ TextureImporter:
         width: 185
         height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: e3ddbbd1a3bfbf04d9c99caa66a137c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_frame
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 157
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00499fdf7005144b8e5da9ebfd13c36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 120
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1f13df33cac5341b5457f533bad150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gutsman
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 120
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0b49a265d5b5941bdffe43386bb768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecman
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a94f7431532124690796fd45bfc372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iceman
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 152
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988b99ca4405b534790386e429480a16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireman
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 119
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89457f339e76e545bc9eb5eb2a93349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bombman
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 120
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c927fc5f2dd048e458aa4864c03ff563
       vertices: []
       indices: 
       edges: []
