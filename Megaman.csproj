@@ -304,6 +304,7 @@
     <Compile Include="Assets\_scripts\Flicker.cs" />
     <Compile Include="Assets\_scripts\SelectStage.cs" />
     <Compile Include="Assets\_scripts\StartGame.cs" />
+    <Compile Include="Assets\_scripts\TextTyper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="C:\Users\Brian Kenji Aguilar\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Styles\Main_Dark.uss" />

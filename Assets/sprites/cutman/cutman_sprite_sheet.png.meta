@@ -4,6 +4,7 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: intro_cutman
     21300002: cutman_still
+    21300004: cutman_still2
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -119,6 +120,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 25632a310657ce4469b97b432173b464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_still2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 28
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b365aa8cdd9249346892341e09038ff2
       vertices: []
       indices: 
       edges: []
