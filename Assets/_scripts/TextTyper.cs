@@ -8,7 +8,7 @@ using UnityEngine.Animations;
 public class TextTyper : MonoBehaviour {
 
     public Text currentText;
-    public string displayText;
+    string displayText;
 
 	// Use this for initialization
 	void Start () {
@@ -19,9 +19,10 @@ public class TextTyper : MonoBehaviour {
 	
     public IEnumerator TypeText()
     {
-        yield return new WaitForSeconds(3f);
+        //yield return new WaitForSeconds(3f);
         if (currentText.text.Equals("Cutman"))
         {
+            yield return new WaitForSeconds(3f);
             currentText.enabled = true;
             currentText.text = "";
             displayText = "Cutman";
@@ -31,6 +32,20 @@ public class TextTyper : MonoBehaviour {
                 currentText.text = currentText.text + displayText.Substring(i, 1);
             }
             
+        }
+
+        if (currentText.text.Equals("Gutsman"))
+        {
+            yield return new WaitForSeconds(2f);
+            currentText.enabled = true;
+            currentText.text = "";
+            displayText = "Gutsman";
+            for (int i = 0; i < displayText.Length; ++i)
+            {
+                yield return new WaitForSeconds(0.2f);
+                currentText.text = currentText.text + displayText.Substring(i, 1);
+            }
+
         }
     }
 

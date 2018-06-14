@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_cutscene/cutman_selected.unity
     guid: 477905e0898edcb4c8e0ac0a3148b1c7
+  - enabled: 1
+    path: Assets/_cutscene/gutsman_selected.unity
+    guid: 0bf4fa781ddf78d4f91f5853b11756f2
   m_configObjects: {}

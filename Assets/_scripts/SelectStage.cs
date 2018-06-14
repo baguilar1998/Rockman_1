@@ -67,5 +67,6 @@ public class SelectStage : MonoBehaviour {
     void transitionToStage()
     {
         if (index == 0) SceneManager.LoadScene("cutman_selected");
+        else if (index == 1) SceneManager.LoadScene("gutsman_selected");
     }
 }
