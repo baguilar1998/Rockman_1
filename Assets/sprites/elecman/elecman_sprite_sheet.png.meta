@@ -1,7 +1,23 @@
 fileFormatVersion: 2
 guid: 2cfc89a3c333c824ba421595255fed7d
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: elecman_sprite_sheet_0
+    21300002: elecman_sprite_sheet_1
+    21300004: elecman_sprite_sheet_2
+    21300006: elecman_sprite_sheet_3
+    21300008: elecman_sprite_sheet_4
+    21300010: elecman_sprite_sheet_5
+    21300012: elecman_sprite_sheet_6
+    21300014: elecman_sprite_sheet_7
+    21300016: elecman_sprite_sheet_8
+    21300018: elecman_sprite_sheet_9
+    21300020: elecman_sprite_sheet_10
+    21300022: elecman_sprite_sheet_11
+    21300024: elecman_sprite_sheet_12
+    21300026: elecman_sprite_sheet_13
+    21300028: elecman_sprite_sheet_14
+    21300030: elecman_sprite_sheet_15
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -38,7 +54,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,9 +83,340 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: elecman_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 55
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dded8ff3f17ecce4b9ae137adfa4d84e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecman_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 55
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53732432ccc3a60449756d4f8c762ff7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecman_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 55
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb078e9ae0e58744788bbc055249cd0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecman_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 55
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beec12a8bc68b904d93b42754cf65167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecman_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 55
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf581b20e56540e4e92ce78674a64210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecman_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 55
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb37f4669e4138d41ba272c65585788a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecman_sprite_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 55
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1fa535f0ba6894f8e14877877fcb51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecman_sprite_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 55
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9eda07ff1ade484f9528be681867972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecman_sprite_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c0d5d75aa929444af08efdcff62ab8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecman_sprite_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 2
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5196e58c9b849be49b05eb98345dcaf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecman_sprite_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 5
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae5d4c2a780711458225db4d7adf271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecman_sprite_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 5
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d99a501b49948a479dcb8e3bc8f126a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecman_sprite_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 4
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb8777414d16d7479e6e6b4cfa7992d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecman_sprite_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 5
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119aaea9c178e3045a728c9d7e6e6b94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecman_sprite_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 6
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156de0858d9a5404ebf6436b5d1a50c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elecman_sprite_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 30
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5f0abe6c6e0f04ebe4fea9c4187bc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

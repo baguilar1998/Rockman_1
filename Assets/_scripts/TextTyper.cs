@@ -60,6 +60,19 @@ public class TextTyper : MonoBehaviour {
                 currentText.text = currentText.text + displayText.Substring(i, 1);
             }
         }
+
+        if (currentText.text.Equals("Elecman"))
+        {
+            yield return new WaitForSeconds(2f);
+            currentText.enabled = true;
+            currentText.text = "";
+            displayText = "Elecman";
+            for (int i = 0; i < displayText.Length; ++i)
+            {
+                yield return new WaitForSeconds(0.2f);
+                currentText.text = currentText.text + displayText.Substring(i, 1);
+            }
+        }
     }
 
 	// Update is called once per frame

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_scenes/stage_select.unity
+- path: Assets/_cutscene/iceman_selected.unity
   isLoaded: 1
   isActive: 1
