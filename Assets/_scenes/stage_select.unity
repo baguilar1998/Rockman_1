@@ -181,10 +181,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 11170055}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7032649, y: 0.0054118447, z: 0}
-  m_LocalScale: {x: 1.0302603, y: 1.0650446, z: 1}
+  m_LocalPosition: {x: -0.00042649958, y: 0.0054118447, z: 0}
+  m_LocalScale: {x: 1.0302603, y: 1.0650448, z: 1}
   m_Children: []
-  m_Father: {fileID: 879579435}
+  m_Father: {fileID: 946586903}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &82605213
@@ -936,7 +936,7 @@ GameObject:
   - component: {fileID: 879579435}
   - component: {fileID: 879579434}
   m_Layer: 0
-  m_Name: bombman_frame
+  m_Name: fireman_frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -997,7 +997,7 @@ Transform:
   m_LocalPosition: {x: -1.65, y: -2.7, z: 0}
   m_LocalScale: {x: 4.6895556, y: 4.0651712, z: 1}
   m_Children:
-  - {fileID: 11170057}
+  - {fileID: 1533478689}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1011,7 +1011,7 @@ GameObject:
   - component: {fileID: 946586903}
   - component: {fileID: 946586902}
   m_Layer: 0
-  m_Name: fireman_frame
+  m_Name: bombman_frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1072,7 +1072,7 @@ Transform:
   m_LocalPosition: {x: 1.65, y: -2.7, z: 0}
   m_LocalScale: {x: 4.6895556, y: 4.0651712, z: 1}
   m_Children:
-  - {fileID: 1533478689}
+  - {fileID: 11170057}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1523,10 +1523,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1533478688}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.7066768, y: 0.0036899075, z: 0}
-  m_LocalScale: {x: 1.0132389, y: 0.9839684, z: 1}
+  m_LocalPosition: {x: -0.0029853953, y: 0.0036899075, z: 0}
+  m_LocalScale: {x: 1.0132389, y: 0.98396844, z: 1}
   m_Children: []
-  m_Father: {fileID: 946586903}
+  m_Father: {fileID: 879579435}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1533478690

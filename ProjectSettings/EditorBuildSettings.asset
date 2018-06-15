@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/_cutscene/iceman_selected.unity
     guid: f7e0bf2ec69b8f64da6c8daba0a727bd
   - enabled: 1
+    path: Assets/_cutscene/bombman_selected.unity
+    guid: 188f854c93dca5743bd6f0f87e4cd5f3
+  - enabled: 1
     path: Assets/_cutscene/elecman_selected.unity
     guid: 7ff89b39850a24a428f5094e8ccb8341
   m_configObjects: {}

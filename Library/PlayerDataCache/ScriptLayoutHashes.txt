@@ -7,6 +7,7 @@ Assets/_scenes/stage_select.unity
 Assets/_cutscene/cutman_selected.unity
 Assets/_cutscene/gutsman_selected.unity
 Assets/_cutscene/iceman_selected.unity
+Assets/_cutscene/bombman_selected.unity
 Assets/_cutscene/elecman_selected.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
