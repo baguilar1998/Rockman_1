@@ -74,6 +74,19 @@ public class TextTyper : MonoBehaviour {
             }
         }
 
+        if (currentText.text.Equals("Fireman"))
+        {
+            yield return new WaitForSeconds(3f);
+            currentText.enabled = true;
+            currentText.text = "";
+            displayText = "Fireman";
+            for (int i = 0; i < displayText.Length; ++i)
+            {
+                yield return new WaitForSeconds(0.2f);
+                currentText.text = currentText.text + displayText.Substring(i, 1);
+            }
+        }
+
         if (currentText.text.Equals("Elecman"))
         {
             yield return new WaitForSeconds(2f);
