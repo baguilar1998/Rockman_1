@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_cutscene/fireman_selected.unity
+- path: Assets/_scenes/sprite_worker.unity
   isLoaded: 1
   isActive: 1
