@@ -19,7 +19,7 @@ public class TextTyper : MonoBehaviour {
 	
     public IEnumerator TypeText()
     {
-        //yield return new WaitForSeconds(3f);
+        
         if (currentText.text.Equals("Cutman"))
         {
             yield return new WaitForSeconds(3f);

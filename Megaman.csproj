@@ -302,6 +302,7 @@
   <ItemGroup>
     <Compile Include="Assets\_scripts\Cutscene.cs" />
     <Compile Include="Assets\_scripts\Flicker.cs" />
+    <Compile Include="Assets\_scripts\MegamanController.cs" />
     <Compile Include="Assets\_scripts\SelectStage.cs" />
     <Compile Include="Assets\_scripts\StartGame.cs" />
     <Compile Include="Assets\_scripts\TextTyper.cs" />
