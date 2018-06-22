@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_cutscene/elecman_selected.unity
     guid: 7ff89b39850a24a428f5094e8ccb8341
+  - enabled: 1
+    path: Assets/_scenes/cutman_stage.unity
+    guid: dcb2cccae610fdf41bf57ce996f013ce
   m_configObjects: {}

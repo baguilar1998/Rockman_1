@@ -279,6 +279,7 @@ GameObject:
   - component: {fileID: 1174613742}
   - component: {fileID: 1174613741}
   - component: {fileID: 1174613743}
+  - component: {fileID: 1174613744}
   m_Layer: 5
   m_Name: cutman_logo
   m_TagString: Untagged
@@ -355,29 +356,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentText: {fileID: 1174613741}
---- !u!1 &1414043340
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1414043342}
-  - component: {fileID: 1414043341}
-  - component: {fileID: 1414043343}
-  m_Layer: 0
-  m_Name: play_music
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &1414043341
+  audio: {fileID: 1174613744}
+--- !u!82 &1174613744
 AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1414043340}
+  m_GameObject: {fileID: 1174613739}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -467,6 +452,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1414043340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1414043342}
+  - component: {fileID: 1414043343}
+  m_Layer: 0
+  m_Name: play_music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &1414043342
 Transform:
   m_ObjectHideFlags: 0
@@ -628,7 +629,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4.8769073
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

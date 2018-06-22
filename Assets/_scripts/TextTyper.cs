@@ -4,16 +4,20 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Sprites;
 using UnityEngine.Animations;
+using UnityEngine.SceneManagement;
 
 public class TextTyper : MonoBehaviour {
 
     public Text currentText;
     string displayText;
+    public AudioSource audio;
 
 	// Use this for initialization
 	void Start () {
         currentText = GetComponent<Text>();
+        audio = gameObject.GetComponent<AudioSource>();
         currentText.enabled = false;
+        audio.Play();
         StartCoroutine(TypeText());
     }
 	
@@ -104,5 +108,12 @@ public class TextTyper : MonoBehaviour {
     }
 
 	// Update is called once per frame
-	void Update () {}
+	void Update () {
+
+         if (audio.isPlaying == false)
+         {
+            SceneManager.LoadScene(currentText.text.ToLower() + "_stage");
+         }
+
+    }
 }
