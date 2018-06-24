@@ -15,7 +15,7 @@ public class MegamanController : MonoBehaviour {
         sprite = GetComponent<SpriteRenderer>();
         speed = 4f;
         flip = isJumping = false;
-        jump = 1250;
+        jump = 1200;
 	}
 	
     private void MovePlayer()
@@ -32,25 +32,7 @@ public class MegamanController : MonoBehaviour {
         }
         else if (!isJumping)
         {
-
-            //Keeps track of key inputs to switch to certain animations
-            if (Input.GetKeyDown(KeyCode.D))
-            {
-                anim.SetTrigger("Walk");
-            }
-            else if (Input.GetKeyUp(KeyCode.D))
-            {
-                anim.SetTrigger("Idle");
-            }
-
-            if (Input.GetKeyDown(KeyCode.A))
-            {
-                anim.SetTrigger("Walk");
-            }
-            else if (Input.GetKeyUp(KeyCode.A))
-            {
-                anim.SetTrigger("Idle");
-            }
+            AnimationStates();
         }
 
 
@@ -72,15 +54,40 @@ public class MegamanController : MonoBehaviour {
         gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jump);
     }
 
-  
+    private void AnimationStates()
+    {
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            anim.SetTrigger("Walk");
+        }
+        else if (Input.GetKeyUp(KeyCode.D))
+        {
+            anim.SetTrigger("Idle");
+        }
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            anim.SetTrigger("Walk");
+        }
+        else if (Input.GetKeyUp(KeyCode.A))
+        {
+            anim.SetTrigger("Idle");
+        }
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            anim.SetTrigger("Shoot");
+        }
+        else if (Input.GetKeyUp(KeyCode.K))
+        {
+            anim.SetTrigger("Idle");
+        }
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (isJumping)
-        {
-            isJumping = !isJumping;
-        }
-        
+        if (isJumping)isJumping = !isJumping;
     }
+
     // Update is called once per frame
     void Update () {
         MovePlayer();
