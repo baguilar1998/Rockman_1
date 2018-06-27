@@ -72,13 +72,33 @@ public class MegamanController : MonoBehaviour {
         else if (Input.GetKeyUp(KeyCode.A))
         {
             anim.SetTrigger("Idle");
+            
+        }
+        if (Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.K))
+        {
+            anim.SetTrigger("Walk");
+            anim.SetTrigger("Shoot");
+            anim.StopPlayback();
+            anim.Play("run_and_gun");
+        }
+
+        if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.K))
+        {
+
+            anim.SetTrigger("Walk");
+            anim.SetTrigger("Shoot");
+            anim.StopPlayback();
+            anim.Play("run_and_gun");
         }
         if (Input.GetKeyDown(KeyCode.K))
         {
             anim.SetTrigger("Shoot");
+            anim.Play("shoot_idle");
         }
+
         else if (Input.GetKeyUp(KeyCode.K))
         {
+            anim.StopPlayback();
             anim.SetTrigger("Idle");
         }
     }
